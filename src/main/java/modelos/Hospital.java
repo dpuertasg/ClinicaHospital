@@ -48,5 +48,10 @@ public class Hospital {
         this.consulta = consulta;
     }
 
+    @Override
+    public String toString() {
+        return "Hospital{" + "nombre=" + nombre + ", ciudad=" + ciudad + ", consulta=" + consulta + '}';
+    }
+
     
 }
